@@ -28,7 +28,6 @@ export const jumlahSubmit = (
     setValuesJum({
       ...valuesJum,
       verif: false,
-      errText: "",
       visibleUnder: false,
       visibleHigher: true,
       visibleButtonJumlah: false,
@@ -38,7 +37,6 @@ export const jumlahSubmit = (
     setValuesJum({
       ...valuesJum,
       verif: false,
-      errText: "",
       visibleUnder: true,
       visibleHigher: false,
       visibleButtonJumlah: false,

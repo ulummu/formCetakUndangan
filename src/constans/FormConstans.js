@@ -87,8 +87,6 @@ export const initialJumlah = {
   visibleHigher: false,
   visibleButtonJumlah: true,
   kata: "",
-  verif: false,
-  errText: "",
 };
 export const jumlahChosen = [
   { value: "30", text: "30" },
