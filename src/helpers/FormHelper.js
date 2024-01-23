@@ -13,13 +13,7 @@ export const checkSpecialChar = (e) => {
     e.stopPropagation();
   }
 };
-export const jumlahSubmit = (
-  newValues,
-  valuesJum,
-  setValues,
-  setValuesJum
-  // setValidatedJumlah
-) => {
+export const jumlahSubmit = (newValues, valuesJum, setValues, setValuesJum) => {
   if (
     newValues.jumlah <= 101 &&
     newValues.jumlah !== "" &&
